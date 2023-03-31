@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: html
-        image: ---
+        image: 768722692321.dkr.ecr.us-east-2.amazonaws.com/my-ecr-repo:latest
         resources:
           requests:
             memory: "64Mi"
@@ -27,6 +27,6 @@ spec:
             cpu: "500m"
         env:
         - name: owner
-          value: your-name
+          value: Hamo
         ports:
         - containerPort: 80
